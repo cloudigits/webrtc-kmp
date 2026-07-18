@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../webrtc-kmp/0.125.11-jvm1/webrtc-kmp-0.125.11-jvm1.module",
+    "group": "com.shepeliev",
+    "module": "webrtc-kmp",
+    "version": "0.125.11-jvm1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.onvoid.webrtc",
+          "module": "webrtc-java",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webrtc-kmp-jvm-0.125.11-jvm1.jar",
+          "url": "webrtc-kmp-jvm-0.125.11-jvm1.jar",
+          "size": 345749,
+          "sha512": "27c130315d9391d35e6ef00066997eec937efb0aae4d396dae1a92e82df56ff5f9a440b08166bc5489e98a8f71a94becdf2ecec3cabd62f7ff9a8db6bc6e0c24",
+          "sha256": "512c03e794cc30519278a2c6badaf2a41cd32d902f7289c48ccff59e67082c14",
+          "sha1": "92cdecf8bc401375f3fd94e604bbce4c051e49dc",
+          "md5": "e756be51332c51160bec2359fbc06fb4"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.onvoid.webrtc",
+          "module": "webrtc-java",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk18on",
+          "version": {
+            "requires": "1.85"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webrtc-kmp-jvm-0.125.11-jvm1.jar",
+          "url": "webrtc-kmp-jvm-0.125.11-jvm1.jar",
+          "size": 345749,
+          "sha512": "27c130315d9391d35e6ef00066997eec937efb0aae4d396dae1a92e82df56ff5f9a440b08166bc5489e98a8f71a94becdf2ecec3cabd62f7ff9a8db6bc6e0c24",
+          "sha256": "512c03e794cc30519278a2c6badaf2a41cd32d902f7289c48ccff59e67082c14",
+          "sha1": "92cdecf8bc401375f3fd94e604bbce4c051e49dc",
+          "md5": "e756be51332c51160bec2359fbc06fb4"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "webrtc-kmp-jvm-0.125.11-jvm1-sources.jar",
+          "url": "webrtc-kmp-jvm-0.125.11-jvm1-sources.jar",
+          "size": 37448,
+          "sha512": "3277fab4e33f0bac48723e69ccf5948320c36c6be657ef9a18c10634127895bfdcb6cc3c087ae2d84a93c3bc8b3f236cb3f295435a0a59a4becad66185ccd6db",
+          "sha256": "5a57b9669a6489f72efcaca46fa649cbc67b00cec1aa1e62fdd3adf854ed57cc",
+          "sha1": "6f7d6cecf522897a6f2006e4f545955a0c9ecb30",
+          "md5": "fd09e0ee35c4298e1654aecc4ddcd288"
+        }
+      ]
+    }
+  ]
+}
