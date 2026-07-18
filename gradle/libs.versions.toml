@@ -16,6 +16,8 @@ kermit = "2.0.5"
 kotlin-wrappers = "1.0.0-pre.732"
 webrtc-android-sdk = "125.6422.06.1"
 webrtc-ios-sdk = "125.6422.07"
+webrtc-java = "0.14.0"
+bouncycastle = "1.85"
 
 #Android
 minSdk = "21"
@@ -30,6 +32,8 @@ vanniktech-maven-publish = "0.34.0"
 
 [libraries]
 webrtc-sdk = { module = "io.github.webrtc-sdk:android", version.ref = "webrtc-android-sdk" }
+webrtc-java = { module = "dev.onvoid.webrtc:webrtc-java", version.ref = "webrtc-java" }
+bcpkix-jdk18on = { module = "org.bouncycastle:bcpkix-jdk18on", version.ref = "bouncycastle" }
 kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin-coroutines" }
 kotlin-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlin-coroutines" }
 kotlin-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlin-coroutines" }

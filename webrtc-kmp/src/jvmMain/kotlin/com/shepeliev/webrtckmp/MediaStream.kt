@@ -1,0 +1,52 @@
+package com.shepeliev.webrtckmp
+
+import dev.onvoid.webrtc.media.audio.AudioTrack
+import dev.onvoid.webrtc.media.video.VideoTrack
+import java.util.UUID
+import dev.onvoid.webrtc.media.MediaStream as NativeMediaStream
+
+public actual class MediaStream internal constructor(
+    public val native: NativeMediaStream? = null,
+    public actual val id: String = native?.id() ?: UUID.randomUUID().toString(),
+) {
+
+    public actual constructor() : this(null)
+
+    private val _tracks = mutableListOf<MediaStreamTrack>()
+    public actual val tracks: List<MediaStreamTrack> = _tracks
+
+    public actual fun addTrack(track: MediaStreamTrack) {
+        require(track is MediaStreamTrackImpl)
+
+        native?.let {
+            when (track.native) {
+                is AudioTrack -> it.addTrack(track.native)
+                is VideoTrack -> it.addTrack(track.native)
+                else -> error("Unknown MediaStreamTrack kind: ${track.kind}")
+            }
+        }
+        _tracks += track
+    }
+
+    public actual fun getTrackById(id: String): MediaStreamTrack? {
+        return tracks.firstOrNull { it.id == id }
+    }
+
+    public actual fun removeTrack(track: MediaStreamTrack) {
+        require(track is MediaStreamTrackImpl)
+
+        native?.let {
+            when (track.native) {
+                is AudioTrack -> it.removeTrack(track.native)
+                is VideoTrack -> it.removeTrack(track.native)
+                else -> error("Unknown MediaStreamTrack kind: ${track.kind}")
+            }
+        }
+        _tracks -= track
+    }
+
+    public actual fun release() {
+        tracks.forEach(MediaStreamTrack::stop)
+        native?.dispose()
+    }
+}

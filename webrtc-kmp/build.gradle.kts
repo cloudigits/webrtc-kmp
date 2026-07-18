@@ -50,6 +50,8 @@ kotlin {
         }
     }
 
+    jvm()
+
     iosX64()
     iosArm64()
     iosSimulatorArm64()
@@ -104,6 +106,26 @@ kotlin {
 
         wasmJsMain.dependencies {
             implementation(libs.kotlin.browser)
+        }
+
+        jvmMain.dependencies {
+            api(libs.webrtc.java)
+            implementation(libs.bcpkix.jdk18on)
+        }
+
+        jvmTest.dependencies {
+            val osName = System.getProperty("os.name")
+            val hostOs = when {
+                osName == "Mac OS X" -> "macos"
+                osName.startsWith("Win") -> "windows"
+                osName.startsWith("Linux") -> "linux"
+                else -> error("Unsupported OS: $osName")
+            }
+            val hostArch = when (val arch = System.getProperty("os.arch").lowercase()) {
+                "amd64" -> "x86_64"
+                else -> arch
+            }
+            implementation("${libs.webrtc.java.get()}:$hostOs-$hostArch")
         }
 
         commonTest.dependencies {
