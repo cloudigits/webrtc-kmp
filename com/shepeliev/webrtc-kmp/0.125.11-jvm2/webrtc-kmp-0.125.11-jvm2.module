@@ -1,0 +1,424 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shepeliev",
+    "module": "webrtc-kmp",
+    "version": "0.125.11-jvm2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webrtc-kmp-metadata-0.125.11-jvm2.jar",
+          "url": "webrtc-kmp-0.125.11-jvm2.jar",
+          "size": 47983,
+          "sha512": "1df2c84c2fb0a595c7f481d8d4dfa82b0e3d49222515df815f59ad2203b2b0427f7c65e65ec4ec12266417499d7b732b520dcce89b21931313efb995d8ef7813",
+          "sha256": "b467f79c9d2e03d2753c02124834c23cdbe5df5055d6d435f2525c59045fdc8b",
+          "sha1": "57aff71de2ad8e439cb011c95eda4967cc9764db",
+          "md5": "1332c4fe98a92a7a7307451d4c923ec4"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "webrtc-kmp-kotlin-0.125.11-jvm2-sources.jar",
+          "url": "webrtc-kmp-0.125.11-jvm2-sources.jar",
+          "size": 63013,
+          "sha512": "b61c7e3c73c10b5431d47c0bc9aa3901e316fd58d03a3a03b7705ac3dcddf68312bc29038ebf6eb013260eb73a456e1480c9467f6066c8b218219b99b753b55c",
+          "sha256": "8b4412e8f287976fd8a8271b90f2041c18a245da14452debce6be2f238a2291f",
+          "sha1": "7644ddf9d10398a0be56a3326f08d9221313fe86",
+          "md5": "2a16859685520d88eb17a423003c3c28"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-android/0.125.11-jvm2/webrtc-kmp-android-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-android",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-android/0.125.11-jvm2/webrtc-kmp-android-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-android",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-android/0.125.11-jvm2/webrtc-kmp-android-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-android",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-iosarm64/0.125.11-jvm2/webrtc-kmp-iosarm64-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-iosarm64",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-iosarm64/0.125.11-jvm2/webrtc-kmp-iosarm64-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-iosarm64",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-iosarm64/0.125.11-jvm2/webrtc-kmp-iosarm64-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-iosarm64",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-iossimulatorarm64/0.125.11-jvm2/webrtc-kmp-iossimulatorarm64-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-iossimulatorarm64",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-iossimulatorarm64/0.125.11-jvm2/webrtc-kmp-iossimulatorarm64-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-iossimulatorarm64",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-iossimulatorarm64/0.125.11-jvm2/webrtc-kmp-iossimulatorarm64-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-iossimulatorarm64",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-iosx64/0.125.11-jvm2/webrtc-kmp-iosx64-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-iosx64",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-iosx64/0.125.11-jvm2/webrtc-kmp-iosx64-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-iosx64",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-iosx64/0.125.11-jvm2/webrtc-kmp-iosx64-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-iosx64",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-js/0.125.11-jvm2/webrtc-kmp-js-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-js",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-js/0.125.11-jvm2/webrtc-kmp-js-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-js",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-js/0.125.11-jvm2/webrtc-kmp-js-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-js",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-jvm/0.125.11-jvm2/webrtc-kmp-jvm-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-jvm",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-jvm/0.125.11-jvm2/webrtc-kmp-jvm-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-jvm",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-jvm/0.125.11-jvm2/webrtc-kmp-jvm-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-jvm",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-wasm-js/0.125.11-jvm2/webrtc-kmp-wasm-js-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-wasm-js",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-wasm-js/0.125.11-jvm2/webrtc-kmp-wasm-js-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-wasm-js",
+        "version": "0.125.11-jvm2"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../webrtc-kmp-wasm-js/0.125.11-jvm2/webrtc-kmp-wasm-js-0.125.11-jvm2.module",
+        "group": "com.shepeliev",
+        "module": "webrtc-kmp-wasm-js",
+        "version": "0.125.11-jvm2"
+      }
+    }
+  ]
+}

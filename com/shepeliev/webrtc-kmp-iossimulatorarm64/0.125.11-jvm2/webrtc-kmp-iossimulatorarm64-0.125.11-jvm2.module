@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../webrtc-kmp/0.125.11-jvm2/webrtc-kmp-0.125.11-jvm2.module",
+    "group": "com.shepeliev",
+    "module": "webrtc-kmp",
+    "version": "0.125.11-jvm2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webrtc-kmp-iosSimulatorArm64Main-0.125.11-jvm2.klib",
+          "url": "webrtc-kmp-iossimulatorarm64-0.125.11-jvm2.klib",
+          "size": 175037,
+          "sha512": "f257bd5eb7363ce989f78a38a570bf4476357d0fd92db5955ce807073c746be1bdeb563b1dfdffe4f6e9dbdc7d69bc7a3e82518f65916ba3bb20c1d9a408146e",
+          "sha256": "00fb97b20c89352f84c16958aeda5e6e2ad6fd0638f24bbe67152d4426d60424",
+          "sha1": "03fce9fa33b5d9448f169a19bc6358be99b56e4d",
+          "md5": "a6b134a3e693221208adb8eab903fd4f"
+        },
+        {
+          "name": "webrtc-kmp-iosSimulatorArm64Cinterop-WebRTCMain-0.125.11-jvm2.klib",
+          "url": "webrtc-kmp-iossimulatorarm64-0.125.11-jvm2-cinterop-WebRTC.klib",
+          "size": 95973,
+          "sha512": "775a907620685a0556ecefc113262a71a5cb8a1dccf1b9b92c3b19015d368c2dadb2c90c450aad8fc3647c6294589a03628454d72ae2e17d3d31fb6ab905a447",
+          "sha256": "0fed9e61c75aa27fe2c689ffc747bcffc9d55bba70ec673eca15bef7f61eec15",
+          "sha1": "c9d370a4838b628c6425da0b9e2b4360d6b133e3",
+          "md5": "fce81ddd07b0782d8834828ebc8f8c11"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "webrtc-kmp-iossimulatorarm64-0.125.11-jvm2-sources.jar",
+          "url": "webrtc-kmp-iossimulatorarm64-0.125.11-jvm2-sources.jar",
+          "size": 42117,
+          "sha512": "6ec0e20f00d7e7eace7fb60bc2bd966de10bd94627a727405ea69f047a0973bd9c4db5c8ab7c514ee58facdb9833a9e1f14c69fce1029f9612c8f9d5116fe608",
+          "sha256": "e08825d3ab26956f6d8d067ee139d0c14f9731178ef2336f32b53ee37ede13e8",
+          "sha1": "7273b2a645f9eb4ac71554f170318dc2cea12ed4",
+          "md5": "cfca52311ef311def9fef10f4ef7f8ea"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webrtc-kmp-iossimulatorarm64-0.125.11-jvm2-metadata.jar",
+          "url": "webrtc-kmp-iossimulatorarm64-0.125.11-jvm2-metadata.jar",
+          "size": 284592,
+          "sha512": "c33986788d77b71e1bc6056d79f052954ada84f2c8224a4c5c597c4094364b4bf687e5f2c6db8fd1464890c0a5a53aa959db15ad68807308f47d35a76f8cf449",
+          "sha256": "483d0d49ddfb196a1421334c30a0030c4e27b9f6aadbcaba02dc544efd88b3e8",
+          "sha1": "c60de8a4e62f3427888f6f363b0315b216401346",
+          "md5": "d935b6c47b1e324cc8fcda7385fe3cae"
+        }
+      ]
+    }
+  ]
+}

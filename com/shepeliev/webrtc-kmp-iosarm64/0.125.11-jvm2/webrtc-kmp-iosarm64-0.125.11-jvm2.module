@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../webrtc-kmp/0.125.11-jvm2/webrtc-kmp-0.125.11-jvm2.module",
+    "group": "com.shepeliev",
+    "module": "webrtc-kmp",
+    "version": "0.125.11-jvm2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webrtc-kmp-iosArm64Main-0.125.11-jvm2.klib",
+          "url": "webrtc-kmp-iosarm64-0.125.11-jvm2.klib",
+          "size": 183196,
+          "sha512": "1b1a853348099c576bf504b65db1e6498407288eb32d34000d4e73fe64bcef61af1416eca058c5efb8523eac8d8a132388f5cc168caa0ae03db3a1fb739ef9c8",
+          "sha256": "ab08d5ffcc09339dfb3173eb317c995e3de75175b8875cb3fe294c8927aa3eb9",
+          "sha1": "86fe2232de28539b39e0ac4c7f23fd98a96f6a9d",
+          "md5": "f79597e175bd05647eb8e9e2e423f905"
+        },
+        {
+          "name": "webrtc-kmp-iosArm64Cinterop-WebRTCMain-0.125.11-jvm2.klib",
+          "url": "webrtc-kmp-iosarm64-0.125.11-jvm2-cinterop-WebRTC.klib",
+          "size": 95226,
+          "sha512": "876f3586169ec2b5012de14e01c3a365789fe057f4b970f18da72e6744ba593403495269ee79130d5e58d29a8f2383c571aabd9d2fb02294fc1b58ff93cb7ea1",
+          "sha256": "4f446776f3d7803c4ccf9d1a9944a7724039ad7d3e235162d9c598bb9d3e8aa1",
+          "sha1": "112f8b4469f6a84a74052fc7d6e709ee124f4fb6",
+          "md5": "ce5e45696d4a0dabece0b32feb6d413f"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "webrtc-kmp-iosarm64-0.125.11-jvm2-sources.jar",
+          "url": "webrtc-kmp-iosarm64-0.125.11-jvm2-sources.jar",
+          "size": 43103,
+          "sha512": "d99917f467fda289ac10364712a869b7bce003be7da70e8cbc515a6bc1a95ffc5450c8f91ac57d65dad1ec089d18f87843807e9d8bcaeb314a147c7577298c3f",
+          "sha256": "2e623c9ada40f4770ad56ba2433712c7498778d9168f3a529e86bbdaa5aa2bb7",
+          "sha1": "cca54bbc942b21f1d454062ad0523886880a6fda",
+          "md5": "7f4827d5e8d3b5a6e83680f6d228a92e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webrtc-kmp-iosarm64-0.125.11-jvm2-metadata.jar",
+          "url": "webrtc-kmp-iosarm64-0.125.11-jvm2-metadata.jar",
+          "size": 284592,
+          "sha512": "c33986788d77b71e1bc6056d79f052954ada84f2c8224a4c5c597c4094364b4bf687e5f2c6db8fd1464890c0a5a53aa959db15ad68807308f47d35a76f8cf449",
+          "sha256": "483d0d49ddfb196a1421334c30a0030c4e27b9f6aadbcaba02dc544efd88b3e8",
+          "sha1": "c60de8a4e62f3427888f6f363b0315b216401346",
+          "md5": "d935b6c47b1e324cc8fcda7385fe3cae"
+        }
+      ]
+    }
+  ]
+}

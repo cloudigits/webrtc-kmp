@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../webrtc-kmp/0.125.11-jvm2/webrtc-kmp-0.125.11-jvm2.module",
+    "group": "com.shepeliev",
+    "module": "webrtc-kmp",
+    "version": "0.125.11-jvm2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webrtc-kmp-js-0.125.11-jvm2.klib",
+          "url": "webrtc-kmp-js-0.125.11-jvm2.klib",
+          "size": 180447,
+          "sha512": "f585b25530895476e924c8cc563e45978c86c401a28b2f427be8e859be8e4e947fd2932ba0cbed2511d12d77d779d520d9ae637d4556673cc3dd791be93dea15",
+          "sha256": "8da85a54b224fbf6bdfc1f396cab0d05202e6a86a9f5d28895d3c6f1b55bce5c",
+          "sha1": "2326a563fbd36423b7c16700290ceb304489d431",
+          "md5": "04d113b109bbb079829ad149e28b5745"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webrtc-kmp-js-0.125.11-jvm2.klib",
+          "url": "webrtc-kmp-js-0.125.11-jvm2.klib",
+          "size": 180447,
+          "sha512": "f585b25530895476e924c8cc563e45978c86c401a28b2f427be8e859be8e4e947fd2932ba0cbed2511d12d77d779d520d9ae637d4556673cc3dd791be93dea15",
+          "sha256": "8da85a54b224fbf6bdfc1f396cab0d05202e6a86a9f5d28895d3c6f1b55bce5c",
+          "sha1": "2326a563fbd36423b7c16700290ceb304489d431",
+          "md5": "04d113b109bbb079829ad149e28b5745"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "webrtc-kmp-js-0.125.11-jvm2-sources.jar",
+          "url": "webrtc-kmp-js-0.125.11-jvm2-sources.jar",
+          "size": 49288,
+          "sha512": "4c28ef36415252cb06179d0df7560c422e7a71089d9ad5214f15a4840407ca2d05b6919ccf01594a1e34b1171f581b6218dd7c382f73b97ba572004f6e8731f8",
+          "sha256": "522019fcd402f61d9fcad292ef808645ecc8dbcd98929b4d87d4a33ba2ce432f",
+          "sha1": "a0e9bd1c588b9cb50e20b6b4ea697f78c2b2486d",
+          "md5": "66e76b346b386de36ab5e9e5d9fcdf87"
+        }
+      ]
+    }
+  ]
+}
